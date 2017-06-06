@@ -1,0 +1,62 @@
+{
+    "extends": ["airbnb", "plugin:jest/recommended"],
+    "parser": "babel-eslint",
+    "globals": {
+        "BASENAME": true
+    },
+    "rules": {
+        "quotes": [2, "single", { "allowTemplateLiterals": true }],
+        "react/jsx-quotes": 0,
+        "react/jsx-indent": [2, "tab"],
+        "react/jsx-indent-props": [2, "tab"],
+        "react/jsx-space-before-closing": [0],
+        "react/prefer-es6-class": [2, "always"],
+        "react/prefer-stateless-function": 0,
+        "react/jsx-tag-spacing": 0,
+        "react/jsx-filename-extension": 0,
+        "react/forbid-prop-types": 0,
+        "react/no-array-index-key": 0,
+        "react/no-unused-prop-types": 0,
+        "react/no-unescaped-entities": 0,
+        "react/require-default-props": 0,
+        "react/self-closing-comp": 0,
+        "react/style-prop-object": 0,
+        "jsx-a11y/href-no-hash": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/label-has-for": 0,
+        "jsx-quotes": [2, "prefer-double"],
+        "no-console": 0,
+        "func-names": 0,
+        "linebreak-style": 0,
+        "no-tabs": 0,
+        "dot-location": 0,
+        "arrow-parens": 0,
+        "no-plusplus": 0,
+        "no-lonely-if": 0,
+        "no-useless-escape": 0,
+        "no-mixed-operators": 0,
+        "class-methods-use-this": 0,
+        "no-bitwise": 0,
+        "no-extra-boolean-cast": 0,
+        "no-multi-assign": 0,
+        "no-underscore-dangle": 0,
+        "import/first": 0,
+        "import/prefer-default-export": 0,
+        "indent": ["error", "tab"],
+        "no-unused-expressions": ["error", { "allowTernary": true }],
+        "no-use-before-define": ["error", { "functions": false, "classes": false }],
+        "no-confusing-arrow": 0,
+        "comma-dangle": ["error", "always-multiline"],
+        "import/no-extraneous-dependencies": 0,
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error"
+    },
+    "plugins": [
+        "jest"
+    ],
+    "env": {
+        "browser": true,
+        "jest/globals": true
+    }
+}
